@@ -1,8 +1,8 @@
 import React from 'react'
-import img from "../assets/manager.png"
+import img from "../assets/gbprofile.png"
 import SocialMedia from "./SocialMedia"
 import "../css/Header.css"
-import Typed from 'react-typed';
+// import Typed from 'react-typed';
 
 const Header = () => {
   return (
@@ -12,7 +12,7 @@ const Header = () => {
             <h5>I AM EJOVWO GODBLESS</h5>
           <div className="typed">
             <h1>
-              <Typed
+              {/* <Typed
                 className="typed-text"
                 strings={[
                   'A Top-notch Developer',
@@ -22,7 +22,8 @@ const Header = () => {
                 typeSpeed={80}
                 backSpeed={80}
                 loop
-              />
+              /> */}
+              A Top-notch Developer <br /> Writer and Blogger.
             </h1>
           </div> 
           <SocialMedia color="#2351DC"/>
