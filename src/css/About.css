@@ -1,0 +1,13 @@
+.about-me {
+    background-color: #F6F8FE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.about-me p {
+    text-align: center;
+    margin: 20px;
+}

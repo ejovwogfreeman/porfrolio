@@ -1,0 +1,44 @@
+.project-container {
+    padding: 100px 10%;
+}
+
+.project-container .text {
+    margin: 0px;
+    margin-bottom: 50px;
+}
+
+.project-container .row {
+    background-color: #F6F8FE;
+    padding: 30px 20px 0px;
+    border-radius: 10px;
+}
+
+.project-container .row .text {
+    position: relative;
+}
+
+.project-container .row .text img {
+    transition: 0.5s ease-in-out;
+}
+
+.project-container .row .text:hover {
+    background-color: white;
+}
+
+.project-container .row .text:hover img {
+    filter: brightness(50%);
+    transform: scale(1.03);
+}
+
+.project-container .row .text .content{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    transition: 0.5s ease-in-out;
+    color: white;
+    opacity: 0;
+}
+
+.project-container .row .text:hover .content {
+    opacity: 1;
+}

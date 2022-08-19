@@ -1,0 +1,31 @@
+footer {
+    padding: 100px 10% 50px;
+    background-color: #07102C;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+footer .line {
+    height: 10px;
+    border-bottom: 1px solid white;
+    width: 80%;
+    position: absolute;
+    top: 37%;
+}
+
+footer h1 {
+    background-color: #07102C;
+    z-index: 1;
+}
+
+footer .social {
+    margin: 20px;
+}
+
+footer p {
+    margin: 0px;
+}

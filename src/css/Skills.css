@@ -1,0 +1,36 @@
+.skillset-container {
+    padding: 100px 10%;
+}
+
+.skillset-container .text {
+    margin: 0px;
+    margin-bottom: 50px;
+}
+
+.skillset-container .skill-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.skillset-container .skill-container .skill-range {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.skillset-container .skill-container .skill-range .skill {
+    margin-left: 10px;
+    width: 80%;
+}
+
+.skillset-container .skill-container .skill-range .skill p {
+    margin-bottom: 10px;
+}
+
+.skillset-container .skill-container .skill-range .icon {
+    font-size: 50px;
+    color: #2351DC;
+    background-color: #F6F8FE;
+    border-radius: 5px;
+    padding: 5px;
+}

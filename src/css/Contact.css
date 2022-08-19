@@ -1,0 +1,85 @@
+.contact-container {
+    display: flex;
+    background-color: #F6F8FE;
+}
+
+.contact-container .text {
+    width: 55%;
+    padding: 100px 0px 100px 10%;
+    margin: auto;
+}
+
+.contact-container .text .reach {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact-container .text .reach .icon {
+    color: #2351DC;
+    font-size: 40px;
+}
+
+.contact-container .text .reach .touch {
+    margin-left: 20px;
+}
+
+.contact-container .text .reach .touch p {
+    margin: 0px;
+}
+
+.contact-container .form-container {
+    width: 45%;
+    padding: 100px 10% 100px 0px;
+    background-color: #2351DC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-container .form-container form  {
+    width: 100%;
+    margin-left: 100px;
+    color: white;
+}
+
+.contact-container .form-container form input {
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 0px;
+}
+
+.contact-container .form-container form textarea {
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    margin-top: 20px;
+    padding: 10px 0px;
+}
+
+.contact-container .form-container form button {
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin-top: 40px;
+    padding: 10px 0px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+}
+
+.contact-container .form-container form button:hover {
+    transform: scale(1.05);
+}
