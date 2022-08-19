@@ -42,7 +42,7 @@ const Testimonials = () => {
                     {tests.map(test=> {
                         return (
                             <div key={test.id}>
-                                <img src={test.img} alt="testimonial-images"/>
+                                <img src={test.img} alt="testimonial-description"/>
                                 <h2>{test.title}</h2>
                                 <p>{test.content}</p>
                             </div>
