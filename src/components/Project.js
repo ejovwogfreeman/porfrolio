@@ -25,9 +25,6 @@ const Project = () => {
                 />
                 <div className="content">
                   <h3>LOGO DESIGN</h3>
-                  <h3>
-                    <a href="https://wa.me/+2349032227067">Contact</a>
-                  </h3>
                 </div>
               </div>
 
@@ -39,9 +36,6 @@ const Project = () => {
                 />
                 <div className="content">
                   <h3>FIXING OF HINGE</h3>
-                  <h3>
-                    <a href="https://wa.me/09025502478">Contact</a>
-                  </h3>
                 </div>
               </div>
             </div>
@@ -55,9 +49,6 @@ const Project = () => {
                 />
                 <div className="content">
                   <h3>SOCIAL MEDIA ADS</h3>
-                  <h3>
-                    <a href="https://wa.me/+2347066096155">Contact</a>
-                  </h3>
                 </div>
               </div>
 
@@ -69,9 +60,6 @@ const Project = () => {
                 />
                 <div className="content">
                   <h3>LAPTOP SERVICING</h3>
-                  <h3>
-                    <a href="https://wa.me/+2349032227067">Contact</a>
-                  </h3>
                 </div>
               </div>
             </div>
@@ -85,9 +73,6 @@ const Project = () => {
                 />
                 <div className="content">
                   <h3>WEB DEVELOPMENT</h3>
-                  <h3>
-                    <a href="https://wa.me/+2348115561060">Contact</a>
-                  </h3>
                 </div>
               </div>
 
@@ -99,9 +84,6 @@ const Project = () => {
                 />
                 <div className="content">
                   <h3>MOTHERBOARD REPAIR</h3>
-                  <h3>
-                    <a href="https://wa.me/+2347066096155">Contact</a>
-                  </h3>
                 </div>
               </div>
             </div>
