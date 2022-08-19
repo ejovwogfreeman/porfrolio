@@ -70,7 +70,7 @@ const Services = () => {
     ]
 
   return (
-    <div className="servicesset-container">
+    <div className="servicesset-container" id="services">
         <div className="text">
             <h1>Services I Render</h1>
             <p>Here are the services I render</p>

@@ -29,7 +29,7 @@ const Header = () => {
           <SocialMedia color="#2351DC"/>
         </div>
         <div className="side-header">
-            <img src={img} alt="" />
+            <img src={img} alt="header-image" />
         </div>
     </header>
   )

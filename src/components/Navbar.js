@@ -8,10 +8,10 @@ const Navbar = () => {
         <div className='main-nav'>
             <h1>Ejovwo Godbless.</h1>
             <ul>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contac Me</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
             </ul>
         </div>
         <ul className='side-nav'>

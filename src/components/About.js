@@ -4,7 +4,7 @@ import SocialMedia from "./SocialMedia"
 
 const About = () => {
   return (
-    <div className='about-me'>
+    <div className='about-me' id="about">
       <h1>About Me</h1>
       <p>
         Ejovwo Godbless is a goal driven <br /> 

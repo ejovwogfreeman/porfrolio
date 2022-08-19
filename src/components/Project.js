@@ -10,7 +10,7 @@ import img7 from "../assets/img8.jpg"
 const Project = () => {
 
   return (
-    <div className="project-container">
+    <div className="project-container" id="projects">
         <div className="text">
             <h1>Milestones Of Projects</h1>
             <p>Here are a few people and projects I have worked on</p>
