@@ -14,13 +14,13 @@ const Navbar = () => {
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact Me</a></li>
             </ul>
+            <div className="mobile-nav">
+              <MobileNav/>
+            </div>
         </div>
         <ul className='side-nav'>
           <div className="desktop-nav">
             <SocialMedia color="#2351DC"/>
-          </div>
-          <div className="mobile-nav">
-            <MobileNav/>
           </div>
         </ul>
     </nav>

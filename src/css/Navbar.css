@@ -121,15 +121,11 @@ nav .side-nav {
 
 @media screen and (max-width: 1120px) {
     nav .main-nav {
-        padding: 0px 0px 0px 5%;
+        width: 100%;
     } 
 
     nav .side-nav {
-        padding: 0px 5% 0px 0px;
-        background-color: rgba(256, 256, 256, 0.7);
-        display: flex;
-        align-items: center;
-        justify-content: right;
+        display: none;
     }
 
     nav .main-nav ul {
