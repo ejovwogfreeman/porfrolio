@@ -138,6 +138,9 @@ nav .side-nav {
     }
 
     .mobile-nav {
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        width: 100%;
     }
 }
