@@ -127,6 +127,9 @@ nav .side-nav {
     nav .side-nav {
         padding: 0px 5% 0px 0px;
         background-color: rgba(256, 256, 256, 0.7);
+        display: flex;
+        align-items: center;
+        justify-content: right;
     }
 
     nav .main-nav ul {
