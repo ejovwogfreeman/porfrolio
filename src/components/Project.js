@@ -24,7 +24,7 @@ const Project = () => {
                   alt="Boat on Calm Water"
                 />
                 <div className="content">
-                  <h3>LOGO DESIGN</h3>
+                  <h3>E-commerce website</h3>
                 </div>
               </div>
 
@@ -35,7 +35,7 @@ const Project = () => {
                   alt="Wintry Mountain Landscape"
                 />
                 <div className="content">
-                  <h3>FIXING OF HINGE</h3>
+                  <h3>Forex Website</h3>
                 </div>
               </div>
             </div>
@@ -48,7 +48,7 @@ const Project = () => {
                   alt="Mountains in the Clouds"
                 />
                 <div className="content">
-                  <h3>SOCIAL MEDIA ADS</h3>
+                  <h3>Project Management</h3>
                 </div>
               </div>
 
@@ -59,7 +59,7 @@ const Project = () => {
                   alt="Boat on Calm Water"
                 />
                 <div className="content">
-                  <h3>LAPTOP SERVICING</h3>
+                  <h3>School Website</h3>
                 </div>
               </div>
             </div>
@@ -72,7 +72,7 @@ const Project = () => {
                   alt="Waves at Sea"
                 />
                 <div className="content">
-                  <h3>WEB DEVELOPMENT</h3>
+                  <h3>Web development training</h3>
                 </div>
               </div>
 
@@ -83,7 +83,7 @@ const Project = () => {
                   alt="Yosemite National Park"
                 />
                 <div className="content">
-                  <h3>MOTHERBOARD REPAIR</h3>
+                  <h3>Coffee Website</h3>
                 </div>
               </div>
             </div>

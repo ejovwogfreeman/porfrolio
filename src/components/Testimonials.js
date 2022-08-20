@@ -9,26 +9,26 @@ const Testimonials = () => {
         {
             id: 1, 
             img: img2, 
-            title: 'programming', 
-            content: 'into web development'
+            title: 'Review 1', 
+            content: 'He\'s a pro web developer. He delivers fast.'
         },
         {
             id: 1, 
             img: img2, 
-            title: 'programming', 
-            content: 'into web development'
+            title: 'Review 2', 
+            content: 'He\'s a pro web developer. He delivers fast.'
         },
         {
             id: 1, 
             img: img2, 
-            title: 'programming', 
-            content: 'into web development'
+            title: 'Review 3', 
+            content: 'He\'s a pro web developer. He delivers fast.'
         },
         {
             id: 1, 
             img: img2, 
-            title: 'programming', 
-            content: 'into web development'
+            title: 'Review 4', 
+            content: 'He\'s a pro web developer. He delivers fast.'
         },
     ]
 
@@ -41,7 +41,7 @@ const Testimonials = () => {
                 <div className="tests-container">
                     {tests.map(test=> {
                         return (
-                            <div key={test.id}>
+                            <div key={test.id} style={{textAlign: 'center'}}>
                                 <img src={test.img} alt="testimonial-description"/>
                                 <h2>{test.title}</h2>
                                 <p>{test.content}</p>

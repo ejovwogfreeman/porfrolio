@@ -1,13 +1,12 @@
 import React from 'react'
-// import { FaChalkboardTeacher } from 'react-icons/fa'
-// import { CgWebsite } from 'react-icons/cg'
-// import { MdDeveloperBoard } from 'react-icons/md'
-// import { GrCloudSoftware } from 'react-icons/gr'
-// import { BsJournalBookmarkFill } from 'react-icons/bs'
-// import { GrTechnology } from 'react-icons/gr'
-// import { HiOutlineDesktopComputer } from 'react-icons/hi'
-// import { MdOutlinePhonelink } from 'react-icons/md'
+import { FaChalkboardTeacher } from 'react-icons/fa'
+import { CgWebsite } from 'react-icons/cg'
+import { MdDeveloperBoard } from 'react-icons/md'
+import { BsJournalBookmarkFill } from 'react-icons/bs'
+import { HiOutlineDesktopComputer } from 'react-icons/hi'
+import { MdOutlinePhonelink } from 'react-icons/md'
 import { CgFileDocument } from 'react-icons/cg' 
+// import { GrTechnology } from 'react-icons/gr'
 // import { GrUserSettings } from 'react-icons/gr'
 import "../css/Services.css"
 
@@ -16,56 +15,74 @@ const Services = () => {
         {
             id: 1, 
             icon: <CgFileDocument/>, 
-            title: 'programming', 
-            content: 'into web development'
+            title: 'Docs online', 
+            content: 'Lorem insum dolor sit amet. the house of gb is the best place to be.'
         },
         {
             id: 1, 
-            icon: <CgFileDocument/>, 
-            title: 'programming', 
-            content: 'into web development'
+            icon: <CgWebsite/>, 
+            title: 'Web design', 
+            content: 'Lorem insum dolor sit amet. the house of gb is the best place to be.'
         },
         {
             id: 1, 
-            icon: <CgFileDocument/>, 
-            title: 'programming', 
-            content: 'into web development'
+            icon: <MdOutlinePhonelink/>, 
+            title: 'Cloud computing', 
+            content: 'Lorem insum dolor sit amet. the house of gb is the best place to be.'
         },
         {
             id: 1, 
-            icon: <CgFileDocument/>, 
-            title: 'programming', 
-            content: 'into web development'
+            icon: <BsJournalBookmarkFill/>, 
+            title: 'Blog websites', 
+            content: 'Lorem insum dolor sit amet. the house of gb is the best place to be.'
         },
         {
             id: 1, 
-            icon: <CgFileDocument/>, 
-            title: 'programming', 
-            content: 'into web development'
+            icon: <MdOutlinePhonelink />, 
+            title: 'Email marketing', 
+            content: 'Lorem insum dolor sit amet. the house of gb is the best place to be.'
         },
                 {
             id: 1, 
             icon: <CgFileDocument/>, 
-            title: 'programming', 
-            content: 'into web development'
+            title: 'Word processing', 
+            content: 'Lorem insum dolor sit amet. the house of gb is the best place to be.'
         },
         {
             id: 1, 
-            icon: <CgFileDocument/>, 
-            title: 'programming', 
-            content: 'into web development'
+            icon: <FaChalkboardTeacher/>, 
+            title: 'School management system', 
+            content: 'Lorem insum dolor sit amet. the house of gb is the best place to be.'
         },
         {
             id: 1, 
-            icon: <CgFileDocument/>, 
-            title: 'programming', 
-            content: 'into web development'
+            icon: <MdOutlinePhonelink />, 
+            title: 'Email and sms marketing', 
+            content: 'Lorem insum dolor sit amet. the house of gb is the best place to be.'
         },
         {
             id: 1, 
-            icon: <CgFileDocument/>, 
-            title: 'programming', 
-            content: 'into web development'
+            icon: <HiOutlineDesktopComputer/>, 
+            title: 'Computer sales and repair', 
+            content: 'Lorem insum dolor sit amet. the house of gb is the best place to be.'
+        },
+        {
+            id: 1, 
+            icon: <MdOutlinePhonelink />, 
+            title: 'Tech projects', 
+            content: 'Lorem insum dolor sit amet. the house of gb is the best place to be.'
+        },
+        {
+            id: 1, 
+            icon: <MdDeveloperBoard/>, 
+            title: 'School project', 
+            content: 'Lorem insum dolor sit amet. the house of gb is the best place to be.'
+        },
+        {
+            id: 1, 
+            icon: <FaChalkboardTeacher/>, 
+            title: 'Web development training', 
+            content: 'Lorem insum dolor sit amet. the house of gb is the best place to be.'
         },
     ]
 
@@ -80,7 +97,7 @@ const Services = () => {
                 return (
                     <div key={service.id}>
                         <p className='icons'>{service.icon}</p>
-                        <h2>{service.title}</h2>
+                        <h3>{service.title}</h3>
                         <p>{service.content}</p>
                     </div>
                 )

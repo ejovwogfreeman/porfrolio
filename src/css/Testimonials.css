@@ -33,3 +33,34 @@
     border-radius: 50%;
     object-fit: cover;
 }
+
+@media screen and (max-width: 1350px) {
+    .testset-container .text {
+        padding: 100px 0px 100px 5%;
+    }
+    .testset-container .tests-right {
+        padding: 100px 5% 100px 0px;
+    }
+}    
+
+@media screen and (max-width: 600px) {
+    .testset-container {
+        display: block;
+    }
+    .testset-container .text {
+        width: 100%;
+    }
+    
+        
+    .testset-container .tests-right {
+        width: 100%;
+        padding: 100px 5%;
+    }
+
+    .testset-container .tests-right .tests-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        text-align: center;
+    }    
+}

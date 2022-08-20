@@ -82,4 +82,33 @@
 
 .contact-container .form-container form button:hover {
     transform: scale(1.05);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1350px) {
+    .contact-container .text {
+        padding: 100px 0px 100px 5%;
+    }
+    .contact-container .form-container {
+        padding: 100px 5% 100px 0px;
+    }
+}    
+
+@media screen and (max-width: 600px) {
+    .contact-container {
+        display: block;
+    }
+    .contact-container .text {
+        width: 100%;
+    }
+    .contact-container .form-container {
+        width: 100%;
+        display: block;
+        padding: 100px 5%;
+    }
+    .contact-container .form-container form  {
+        width: 100%;
+        margin-left: 0px;
+        color: white;
+    }
 }

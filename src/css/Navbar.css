@@ -2,7 +2,11 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 12vh;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(256, 256, 256, 0.7);
+    z-index: 1000;
 }
 
 nav .main-nav {
@@ -15,7 +19,15 @@ nav .main-nav {
 } 
 
 nav .main-nav h1 {
-    font-size: 30px;
+    font-size: 25px;
+}
+
+.gb-logo {
+    color: black;
+}
+
+.gb-logo:hover {
+    color: black;
 }
 
 nav .main-nav ul {
@@ -28,7 +40,11 @@ nav .main-nav ul {
 
 nav .main-nav ul li {
     margin-right: 30px;
+}
 
+nav .main-nav ul li a {
+    color: black;
+    font-size: 14px;
 }
 
 nav .side-nav {
@@ -41,4 +57,87 @@ nav .side-nav {
     height: 100%;
     margin-top: 0px !important;
     margin-bottom: 0px !important;
+}
+
+.mobile-nav {
+    display: none;
+}
+
+.div li{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.li {
+    list-style-type: none;
+}
+
+.li a{
+    font-size: 16px;
+    padding: 15px;
+    color: #000;
+    display: flex;
+    align-items: center;
+}
+
+.li a:hover{
+    color: #2351DC;
+    background-color: #eee;
+}
+
+.close-icon{
+    position: absolute;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    top: 4%;
+    right: 2%;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-icon:hover {
+    color: red;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 1350px) {
+    nav .main-nav {
+        padding: 0px 0px 0px 5%;
+    } 
+
+    nav .side-nav {
+        padding: 0px 5% 0px 0px;
+    }
+
+    nav .main-nav ul li {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    nav .main-nav {
+        padding: 0px 0px 0px 5%;
+    } 
+
+    nav .side-nav {
+        padding: 0px 5% 0px 0px;
+        background-color: rgba(256, 256, 256, 0.7);
+    }
+
+    nav .main-nav ul {
+        display: none;
+    }
+
+    .desktop-nav {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: block;
+    }
 }

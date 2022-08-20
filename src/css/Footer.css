@@ -29,3 +29,21 @@ footer .social {
 footer p {
     margin: 0px;
 }
+
+@media screen and (max-width: 1350px) {
+    footer .line {
+        width: 90%;
+    }
+}   
+
+@media screen and (max-width: 600px) {
+    footer {
+        padding: 50px 5%;
+    }
+    footer .line {
+        display: none;
+    }
+    footer h1 {
+        font-size: 23px;
+    }
+}   

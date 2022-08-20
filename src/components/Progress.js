@@ -11,7 +11,7 @@ const Progress = ({completed}) => {
         transitionDuration="10s"
         bgColor="#2351DC"    
         borderRadius='10px'
-        height='15px'
+        height='10px'
         isLabelVisible={false}
     />
   )

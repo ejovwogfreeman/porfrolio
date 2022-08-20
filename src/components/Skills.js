@@ -19,56 +19,56 @@ const Skills = () => {
         <FaHtml5 className='icon'/>
         <div className='skill'>
           <p>HTML</p>
-          <Progress completed={30}/>
+          <Progress completed={90}/>
         </div>
       </div>
       <div className='skill-range'>
         <SiCss3 className='icon'/>
         <div className='skill'>
           <p>CSS</p>
-          <Progress completed={30}/>
+          <Progress completed={85}/>
         </div>
       </div>
       <div className='skill-range'>
         <IoLogoJavascript className='icon'/>
         <div className='skill'>
           <p>JAVASCRIPT</p>
-          <Progress completed={30}/>
+          <Progress completed={80}/>
         </div>
       </div>
       <div className='skill-range'>
         <FaReact className='icon'/>
         <div className='skill'>
           <p>REACT JS</p>
-          <Progress completed={30}/>
+          <Progress completed={93}/>
         </div>
       </div>
       <div className='skill-range'>
         <IoLogoPython className='icon'/>
         <div className='skill'>
           <p>PYTHON</p>
-          <Progress completed={30}/>
+          <Progress completed={77}/>
         </div>
       </div>
       <div className='skill-range'>
         <FaPhp className='icon'/>
         <div className='skill'>
           <p>PHP</p>
-          <Progress completed={30}/>
+          <Progress completed={70}/>
         </div>
       </div>
       <div className='skill-range'>
         <FaWordpress className='icon'/>
         <div className='skill'>
           <p>WORDPRESS</p>
-          <Progress completed={30}/>
+          <Progress completed={75}/>
         </div>
       </div>
       <div className='skill-range'>
         <TiVendorMicrosoft className='icon'/>
         <div className='skill'>
           <p>MICROSOFT OFFICE</p>
-          <Progress completed={30}/>
+          <Progress completed={87}/>
         </div>
       </div>
     </div>

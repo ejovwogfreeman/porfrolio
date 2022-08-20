@@ -2,6 +2,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 80px;
 }
 
 header .main-header {
@@ -19,8 +20,8 @@ header .main-header h5 {
     margin: 0px !important;
 }
 
-header .main-header .typed {
-    margin: 0px 0px 20px;
+header .main-header h1 {
+    margin: 5px 0px 15px !important;
 }
 
 header .side-header {
@@ -35,4 +36,52 @@ header .side-header {
 header .side-header img {
     width: 60%;
     display: block;
+}
+
+@media screen and (max-width: 1350px) {
+    header .main-header {
+        padding: 0px 0px 0px 5%;
+    }
+    header .side-header {
+        padding: 0px 5% 0px 0px;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    header .side-header {
+        justify-content: center;
+    }
+    header .main-header h1 {
+        margin: 3px 0px 10px !important;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 100px 0px 20px;
+    }
+    header br {
+        display: none;
+    }
+    header .side-header {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+    }
+    header .side-header img {
+        width: 50%;
+        margin: auto;
+        margin-left: 40px;
+    }
+    header .main-header {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+   
 }

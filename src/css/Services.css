@@ -16,8 +16,18 @@
 
 .servicesset-container .services-container .icons {
     font-size: 50px;
+    color: #2351DC;
 }
 
-/* .servicesset-container .services-container h2 {
-    padding: 0px;
-} */
+@media screen and (max-width: 1350px) {
+    .servicesset-container {
+        padding: 100px 5%;
+    }
+  
+}   
+
+@media screen and (max-width: 600px) {
+    .servicesset-container .services-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
