@@ -35,6 +35,13 @@
     padding: 5px;
 }
 
+@media screen and (max-width: 1350px) {
+    .skillset-container {
+        padding: 100px 5%;
+    }
+  
+}    
+
 @media screen and (max-width: 600px) {
     .skillset-container .skill-container {
         display: block;
