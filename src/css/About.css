@@ -9,10 +9,14 @@
 
 .about-me p {
     text-align: center;
-    margin: 20px;
+    width: 100%;
 }
 
 @media screen and (max-width: 600px) {
+    .about-me {
+        padding: 100px 5%;
+    }
+
     .about-me br {
         display: none;
     }

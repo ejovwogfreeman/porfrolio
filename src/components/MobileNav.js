@@ -3,7 +3,7 @@ import { Drawer, Box, Typography, IconButton } from "@mui/material"
 import { AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
 import { MdPermContactCalendar } from 'react-icons/md'
 import { BsTelephone } from 'react-icons/bs'
-import { MdCleaningServices } from 'react-icons/md'
+import { MdOutlineMiscellaneousServices } from 'react-icons/md'
 import { MdComputer } from 'react-icons/md'
 import SocialMedia from './SocialMedia'
 import '../css/Navbar.css';
@@ -22,7 +22,7 @@ const MobileNav = () => {
             <Box p={1} width='100%' textAlign='left'>
                 <Typography variant='h6' component='div'>
                     <li className='li'><a href="#about" onClick={()=> setOpenDrawer(false)}><MdPermContactCalendar  style={{marginRight: '10px'}}/>About Me</a></li>
-                    <li className='li'><a href="#services" onClick={()=> setOpenDrawer(false)}><MdCleaningServices style={{marginRight: '10px'}}/>Services</a></li>
+                    <li className='li'><a href="#services" onClick={()=> setOpenDrawer(false)}><MdOutlineMiscellaneousServices style={{marginRight: '10px'}}/>Services</a></li>
                     <li className='li'><a href="#projects" onClick={()=> setOpenDrawer(false)}><MdComputer style={{marginRight: '10px'}}/>Projects</a></li>
                     <li className='li'><a href="#contact" onClick={()=> setOpenDrawer(false)}><BsTelephone style={{marginRight: '10px'}}/>Contact Me</a></li>
                     <li className='li'><SocialMedia color="#2351DC"/></li>
