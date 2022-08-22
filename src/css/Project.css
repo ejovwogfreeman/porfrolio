@@ -43,11 +43,13 @@
 .project-container .row .text:hover .content {
     opacity: 1;
 }
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1350px) {
     .project-container {
         padding: 100px 5%;
     }
+}
+
+@media screen and (max-width: 600px) {
     .project-container .row {
         background-color: #F6F8FE;
         padding: 25px 10px 0px;
