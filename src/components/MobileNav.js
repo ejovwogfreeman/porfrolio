@@ -21,11 +21,11 @@ const MobileNav = () => {
             </div>
             <Box p={1} width='100%' textAlign='left'>
                 <Typography variant='h6' component='div'>
-                    <li className='li'><a href="#about" onClick={()=> setOpenDrawer(false)}><MdPermContactCalendar  style={{marginRight: '10px'}}/>About Me</a></li>
-                    <li className='li'><a href="#services" onClick={()=> setOpenDrawer(false)}><MdOutlineMiscellaneousServices style={{marginRight: '10px'}}/>Services</a></li>
-                    <li className='li'><a href="#projects" onClick={()=> setOpenDrawer(false)}><MdComputer style={{marginRight: '10px'}}/>Projects</a></li>
-                    <li className='li'><a href="#contact" onClick={()=> setOpenDrawer(false)}><BsTelephone style={{marginRight: '10px'}}/>Contact Me</a></li>
-                    <li className='li'><SocialMedia color="#2351DC"/></li>
+                    <li className='li x'><a href="#about" onClick={()=> setOpenDrawer(false)}><MdPermContactCalendar  style={{marginRight: '10px'}}/>About Me</a></li>
+                    <li className='li x'><a href="#services" onClick={()=> setOpenDrawer(false)}><MdOutlineMiscellaneousServices style={{marginRight: '10px'}}/>Services</a></li>
+                    <li className='li x'><a href="#projects" onClick={()=> setOpenDrawer(false)}><MdComputer style={{marginRight: '10px'}}/>Projects</a></li>
+                    <li className='li x' style={{marginBottom: '10px'}}><a href="#contact" onClick={()=> setOpenDrawer(false)}><BsTelephone style={{marginRight: '10px'}}/>Contact Me</a></li>
+                    <li className='li' style={{marginLeft: '10px', marginBottom: '10px'}}><SocialMedia color="#2351DC"/></li>
                 </Typography>
             </Box>
         </Drawer>
