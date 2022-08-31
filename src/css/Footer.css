@@ -37,9 +37,9 @@ footer p {
 }   
 
 @media screen and (max-width: 600px) {
-    /* footer {
-        padding: 50px 5%;
-    } */
+    footer {
+        padding: 100px 5%;
+    }
     footer .line {
         display: none;
     }
