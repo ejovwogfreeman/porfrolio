@@ -33,8 +33,6 @@ function App() {
         }
       })
     );
-
-    // return () => window.removeEventListener("scroll", scroll);
   }, []);
 
     return (
