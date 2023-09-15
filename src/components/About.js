@@ -12,7 +12,7 @@ const About = () => {
         build solutions to solve real world problems.
       </p>
       <SocialMedia color="#2351DC" />
-      <a href="" className="download">
+      <a href="/" className="download">
         DOWNLOAD RESUME
       </a>
     </div>
