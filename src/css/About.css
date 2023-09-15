@@ -1,29 +1,36 @@
 .about-me {
-    background-color: #F6F8FE;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 100px;
+  background-color: #f6f8fe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 100px;
 }
 
 .about-me p {
-    text-align: center;
-    width: 100%;
+  text-align: center;
+  width: 100%;
+}
+
+.about-me .download {
+  border: 1px solid #2351dc;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 600px) {
-    .about-me {
-        padding: 100px 5%;
-    }
+  .about-me {
+    padding: 100px 5%;
+  }
 
-    .about-me br {
-        display: none;
-    }
+  .about-me br {
+    display: none;
+  }
 
-    .about-me p {
-        width: 100%;
-        display: block;
-        margin: 10px 0px;
-    }
+  .about-me p {
+    width: 100%;
+    display: block;
+    margin: 10px 0px;
+  }
 }

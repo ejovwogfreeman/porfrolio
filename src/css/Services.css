@@ -1,33 +1,53 @@
 .servicesset-container {
-    padding: 100px 10%;
-    background-color: #F6F8FE;
+  padding: 100px 10%;
+  background-color: #f6f8fe;
 }
 
 .servicesset-container .text {
-    margin: 0px;
-    margin-bottom: 50px;
+  margin: 0px;
+  margin-bottom: 50px;
 }
 
 .servicesset-container .services-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
 }
 
 .servicesset-container .services-container .icons {
-    font-size: 50px;
-    color: #2351DC;
+  font-size: 50px;
+  color: #2351dc;
+}
+
+.iframe-box {
+  margin-top: 50px;
+}
+
+.iframe-box h3 {
+  text-align: center;
+}
+
+iframe {
+  height: 500px;
 }
 
 @media screen and (max-width: 1350px) {
-    .servicesset-container {
-        padding: 100px 5%;
-    }
-  
-}   
+  .servicesset-container {
+    padding: 100px 5%;
+  }
+}
 
 @media screen and (max-width: 600px) {
-    .servicesset-container .services-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .servicesset-container .services-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  iframe {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 450px) {
+  iframe {
+    height: 250px;
+  }
 }
