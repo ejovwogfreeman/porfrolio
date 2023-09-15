@@ -1,34 +1,37 @@
 import React from "react";
 import "../css/Testimonials.css";
-import img2 from "../assets/img7.jpg";
+import review1 from "../assets/review1.jpg";
+import review2 from "../assets/review2.jpg";
+import review3 from "../assets/review3.jpg";
+import review4 from "../assets/review4.jpg";
 
 const Testimonials = () => {
   const tests = [
     {
       id: 1,
-      img: img2,
-      title: "John Doe",
+      img: review1,
+      title: "Jane Mark",
       content:
         "Exceptional frontend developer with strong design and coding skills.",
     },
     {
       id: 2,
-      img: img2,
+      img: review2,
       title: "Sally Smith",
       content:
         "Outstanding backend developer excels in programming and data handling.",
     },
     {
       id: 3,
-      img: img2,
+      img: review3,
       title: "Mark Powell",
       content:
         "Versatile full-stack developer excels in both frontend and backend.",
     },
     {
       id: 4,
-      img: img2,
-      title: "Morgan Freeman",
+      img: review4,
+      title: "Morgan Nicky",
       content:
         "Exceptional web development instructor with profound expertise and effective teaching methods.",
     },
