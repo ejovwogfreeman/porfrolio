@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/About.css";
 import SocialMedia from "./SocialMedia";
+import resume from "../assets/GB_RESUME.pdf";
 
 const About = () => {
   return (
@@ -12,7 +13,7 @@ const About = () => {
         build solutions to solve real world problems.
       </p>
       <SocialMedia color="#2351DC" />
-      <a href="/" className="download">
+      <a href={resume} className="download">
         DOWNLOAD RESUME
       </a>
     </div>
