@@ -24,7 +24,7 @@ const Testimonials = () => {
     {
       id: 3,
       img: review3,
-      title: "Mark Powell",
+      title: "Mark Powells",
       content:
         "Versatile full-stack developer excels in both frontend and backend.",
     },
