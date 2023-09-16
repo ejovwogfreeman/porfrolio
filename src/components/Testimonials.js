@@ -17,7 +17,7 @@ const Testimonials = () => {
     {
       id: 2,
       img: review2,
-      title: "Sally Smith",
+      title: "Duncan Smith",
       content:
         "Outstanding backend developer excels in programming and data handling.",
     },

@@ -19,6 +19,10 @@
   justify-content: right;
 }
 
+.testset-container .tests-right h5 {
+  margin-top: 7px !important;
+}
+
 .testset-container .tests-right .tests-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -58,5 +62,11 @@
     grid-gap: 20px;
     text-align: center;
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .testset-container .tests-right .tests-container {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
