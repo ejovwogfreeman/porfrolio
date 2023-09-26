@@ -10,6 +10,8 @@ import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
+import project5 from "../assets/project5.png";
+import project6 from "../assets/project6.png";
 
 const Project = () => {
   let projects = [
@@ -36,6 +38,18 @@ const Project = () => {
       url: "https://gb-hngx-task-two.netlify.app/",
       img: project4,
       text: "MOVIE BOX",
+    },
+    {
+      id: 5,
+      url: "https://gb-hngx-task-three.netlify.app/",
+      img: project5,
+      text: "PICTURE GRAM",
+    },
+    {
+      id: 6,
+      url: "https://gb-netflixclone.netlify.app/",
+      img: project6,
+      text: "NETFLIX CLONE",
     },
   ];
   return (
