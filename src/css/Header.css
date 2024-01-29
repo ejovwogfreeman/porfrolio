@@ -36,7 +36,7 @@ header .side-header {
 header .side-header img {
     width: 80%;
     display: block;
-    margin-left: 150px;
+    margin-left: 200px;
 }
 
 @media screen and (max-width: 1350px) {
@@ -77,7 +77,7 @@ header .side-header img {
     header .side-header img {
         width: 70%;
         margin: auto;
-        margin-left: 40px;
+        margin-left: 60px;
     }
     header .main-header {
         width: 100%;
