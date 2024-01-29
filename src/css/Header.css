@@ -36,7 +36,7 @@ header .side-header {
 header .side-header img {
     width: 80%;
     display: block;
-    margin: auto;
+    margin-right: -30px;
     background-color: red;
 }
 
@@ -78,7 +78,7 @@ header .side-header img {
     header .side-header img {
         width: 70%;
         margin: auto;
-        margin-left: 30px;
+        margin-left: 20px;
     }
     header .main-header {
         width: 100%;
