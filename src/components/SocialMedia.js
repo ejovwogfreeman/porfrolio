@@ -36,7 +36,7 @@ const SocialMedia = ({ color }) => {
         <FaTwitterSquare />
       </a>
       <a
-        href="https://www.linkedin.com/in/godbless-ejovwo/"
+        href="https://www.linkedin.com/in/ejovwogfreeman/"
         style={{ color: color, borderColor: color }}
       >
         <AiFillLinkedin />
