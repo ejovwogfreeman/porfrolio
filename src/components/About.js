@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/About.css";
 import SocialMedia from "./SocialMedia";
-import resume from "../assets/GB_RESUME.pdf";
+import resume from "../assets/GB-RESUME.pdf";
 
 const About = () => {
   return (
