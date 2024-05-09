@@ -31,7 +31,7 @@ const Project = () => {
       id: 3,
       url: "https://gb-food-app.netlify.app/",
       img: project3,
-      text: "LILIES FOOD",
+      text: "GRACEE FOOD",
     },
     {
       id: 4,
