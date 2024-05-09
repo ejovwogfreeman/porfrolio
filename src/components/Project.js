@@ -29,7 +29,7 @@ const Project = () => {
     },
     {
       id: 3,
-      url: "https://gb-food-app.netlify.app/",
+      url: "https://gracee-foods.netlify.app/",
       img: project3,
       text: "GRACEE FOOD",
     },
