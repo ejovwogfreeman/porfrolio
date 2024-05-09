@@ -23,7 +23,7 @@ const Project = () => {
     },
     {
       id: 2,
-      url: "https://expressworldtrade.com/",
+      url: "https://expressworldtrade.netlify.app/",
       img: project2,
       text: "EXPTESSWORLD TRADE",
     },
@@ -47,7 +47,7 @@ const Project = () => {
     },
     {
       id: 6,
-      url: "https://gb-netflixclone.netlify.app/",
+      url: "https://gbnetflixclone.netlify.app/",
       img: project6,
       text: "NETFLIX CLONE",
     },
