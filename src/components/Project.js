@@ -47,7 +47,7 @@ const Project = () => {
     },
     {
       id: 6,
-      url: "https://gbnetflixclone.netlify.app/",
+      url: "https://gb-netflixclone.vercel.app/",
       img: project6,
       text: "NETFLIX CLONE",
     },
